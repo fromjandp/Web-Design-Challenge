@@ -31,11 +31,18 @@
                         Plots
                     </a>
                     <div class="dropdown-menu">
-                        <a href="temp.html">Max Temperature</a>  
-                        <!-- ADD MORE HERE -->                      
+                        <a href="temp.html">Max Temperature</a>
+                        <a href="humidity.html">Humidity</a><br>
+                        <a href="cloudiness.html">Cloudiness</a><br>
+                        <a href="wind.html">Wind Speed</a>
                     </div>
                 </li>
-                
+                <li class="nav-item active">
+                    <a class="nav-link" href="comparison.html">Comparison</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
             </ul>
 
         </div>
@@ -46,14 +53,26 @@
             <div class="col-md-7">
                 <h1 class="description-header">Max Temperature</h1>
                 <img src="assets/images/Fig1.png" alt="" class="img-fluid" />
-                <p>  ADD COMMENTS HERE.</p>
+                <p> -- ADD OBSERVATION TEXT HERE --.</p>
             </div>
 
             <div class="col-md-5">
                 <h1 class="description-header">Visualizations</h1>
                 <div class="table-responsive">
                     <table class="table">
-                        
+                        <tr>
+                            <td>Latitude vs. Max Temperature<a href="temp.html"><img src="assets/images/Fig1.png" alt=""
+                                        class="imageNav-photo"></a></td>
+                            <td>Latitude vs. Humidity<a href="humidity.html"><img src="assets/images/Fig2.png" alt=""
+                                        class="imageNav-photo"></a></td>
+                        </tr>
+                        <tr>
+                            <td>Latitude vs. Cloudiness<a href="cloudiness.html"><img src="assets/images/Fig3.png"
+                                        alt="" class="imageNav-photo"></a>
+                            </td>
+                            <td>Latitude vs. Wind Speed<a href="wind.html"><img src="assets/images/Fig4.png" alt=""
+                                        class="imageNav-photo"></a></td>
+                        </tr>
                     </table>
                 </div>
             </div>
@@ -61,13 +80,9 @@
     </div>
 
 
-
-
-
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
